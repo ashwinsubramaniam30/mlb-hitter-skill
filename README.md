@@ -2,6 +2,8 @@
 
 **How many plate appearances does it take before a hitter's stats reflect real skill, and can a Bayesian model forecast hitters better than taking last season at face value?**
 
+**[Read the 2-page summary report (PDF)](report.pdf)**
+
 This project answers both questions with 2015–2025 MLB data. It estimates how quickly four hitting rates become reliable, then builds Bayesian hierarchical models in Stan that forecast each hitter's 2025 rates using only data through 2024, and scores those forecasts against what actually happened.
 
 ## Key findings
@@ -121,6 +123,7 @@ R/02_forecast_models.R     benchmark forecasts, Stan models, 2025 backtest
 R/03_figures.R             charts
 run_all.R                  runs everything, writes CSVs and charts to output/
 output/                    results (CSV) and figures (PNG)
+report.pdf                 2-page summary of methods and findings
 ```
 
 ## Author
